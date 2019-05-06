@@ -1,6 +1,6 @@
 import numpy as np
-from deepnet.nnet import RNN
-from deepnet.solver import sgd_rnn
+from .deepnet.nnet import RNN
+from .deepnet.solver import sgd_rnn
 
 
 def text_to_inputs(path):

@@ -1,8 +1,8 @@
 import numpy as np
-from deepnet.utils import load_mnist, load_cifar10
-from deepnet.layers import *
-from deepnet.solver import sgd, sgd_momentum, adam
-from deepnet.nnet import CNN
+from .deepnet.utils import load_mnist, load_cifar10
+from .deepnet.layers import *
+from .deepnet.solver import sgd, sgd_momentum, adam
+from .deepnet.nnet import CNN
 import sys
 
 
