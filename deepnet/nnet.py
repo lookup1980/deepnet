@@ -1,7 +1,7 @@
 import numpy as np
-from deepnet.loss import SoftmaxLoss, l2_regularization, delta_l2_regularization
-from deepnet.utils import accuracy, softmax
-from deepnet.utils import one_hot_encode
+from .loss import SoftmaxLoss, l2_regularization, delta_l2_regularization
+from .utils import accuracy, softmax
+from .utils import one_hot_encode
 
 class CNN:
 

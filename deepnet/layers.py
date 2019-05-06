@@ -1,6 +1,7 @@
 import numpy as np
-from deepnet.im2col import *
+# from deepnet.im2col import *
 
+from .im2col import *
 
 class Conv():
 
